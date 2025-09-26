@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Departure Mono';
+	src: url('/src/fonts/DepartureMono-Regular.woff') format('woff2'),
+		url('/src/fonts/DepartureMono-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	/* Nintendo */
+	--nes-color: #E60012;
+	--snes-color: #7e61b9;  
+	--n64-color: #00ad5c;
+	--gameboy-color: #8BAC0F;
+
+	/* Sega */
+	--megadrive-color: #ED1C24;
+	--saturn-color: #003CA6;
+	--dc-color: #F15A22;
+
+	/* Sony */
+	--ps1-color: #0072BC;
+	--ps2-color: #003087;
+
+	/* Xbox */
+	--xbox-color: #107C10;
+
+	/* Atari */
+	--atari-color: #FF6A13;
+
+	/* Fuente */
+	--mono: 'Departure Mono', monospace
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

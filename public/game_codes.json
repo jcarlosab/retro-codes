@@ -1,0 +1,216 @@
+{
+    "MegaDrive": {},
+    "Saturn": {},
+    "Dreamcast": {},
+    "NES": {},
+    "SNES": {},
+    "Nintendo 64": {},
+    "PlayStation": {
+        "Battle Arena Toshinden": [
+            {
+                "name": "Jugar como Gaia",
+                "description": "Desbloquea al personaje Gaia. En la pantalla de título, introduce la combinación. Si lo haces correctamente, oirás la palabra 'Fight'. Luego, en la pantalla de selección de personajes, mantén destacado a Eiji, pulsa el botón direccional superior y presiona cualquier botón de ataque.",
+                "code": "↓, ↓, ←, ←, □"
+            }
+        ],
+        "Battle Arena Toshinden 3": [
+            {
+                "name": "Personaje aleatorio",
+                "description": "Selecciona un personaje aleatorio. Pulsa los botones de hombro simultáneamente en la pantalla de selección de personajes.",
+                "code": "L1 + L2 + R1 + R2"
+            }
+        ],
+        "Bichos": [
+            {
+                "name": "Vidas ilimitadas",
+                "description": "Obtén vidas ilimitadas. En el menú principal, mantén pulsado el botón de hombro derecho y pulsa los botones de acción en el orden correcto.",
+                "code": "R1 + X ○ L2"
+            }
+        ],
+		"Bloody Roar": [
+			{
+				"name": "Modo Cabezón",
+				"description": "Mantén pulsado L2 mientras seleccionas el personaje para activar este modo.",
+				"code": "L2 + Selección de personaje"
+			},
+			{
+				"name": "Modo Pequeñín",
+				"description": "Mantén pulsado R2 mientras seleccionas el personaje para activar este modo.",
+				"code": "R2 + Selección de personaje"
+			},
+			{
+				"name": "Repeticiones de cámara infinitas",
+				"description": "Al eliminar a tu contrincante, mantén pulsado △ durante el final de los combates para activar repeticiones infinitas."
+			},
+			{
+				"category": "Menú de opciones especiales",
+				"list": [
+					{
+						"name": "Opción Extra",
+						"description": "Se desbloquea al terminar el juego sin continuar."
+					},
+					{
+						"name": "Modo brazos grandes",
+						"description": "Se desbloquea al terminar el juego con Yugo."
+					},
+					{
+						"name": "Modo de transformaciones",
+						"description": "Se desbloquea al terminar el juego con Alice."
+					},
+					{
+						"name": "Modo sin defensa",
+						"description": "Se desbloquea al terminar el juego con Long."
+					},
+					{
+						"name": "Modo sin música",
+						"description": "Se desbloquea al terminar el juego con Mitsuko."
+					},
+					{
+						"name": "Modo sin sonido",
+						"description": "Se desbloquea al terminar el juego con Fox."
+					},
+					{
+						"name": "Recuperación de vida",
+						"description": "Se desbloquea al terminar el juego con Bakuryu."
+					},
+					{
+						"name": "Modo difícil",
+						"description": "Se desbloquea al terminar 10 rounds en modo Survival.",
+						"code": "Superar 10 rounds en Survival"
+					},
+					{
+						"name": "Modo especial de imágenes",
+						"description": "Se desbloquea al eliminar todos los personajes del cuadro de dificultad en el menú de opciones."
+					},
+					{
+						"name": "Alice diferente",
+						"description": "Se desbloquea al terminar el juego con Alice en nivel seis de dificultad sin continuar."
+					}
+				]
+			}
+		],
+        "Croc 2": [
+            {
+                "name": "Cristales infinitos",
+                "description": "Obtén cristales infinitos. En la pantalla de título, mantén pulsado el botón de hombro izquierdo y pulsa los botones en el orden correcto. Durante el juego, mantén pulsado el botón de hombro derecho y pulsa el botón de acción para añadir 100 cristales a tu inventario.",
+                "code": "L1 + □ □ ○ ↓ ← → ← →"
+            }
+        ],
+        "Dead Or Alive": [
+            {
+                "name": "Ayane",
+                "description": "Desbloquea al personaje Ayane. Consigue todas las vestimentas del juego: 14 para cada personaje femenino, 5 para cada personaje masculino y 3 para Raidou.",
+                "code": null
+            },
+            {
+                "name": "Raidou",
+                "description": "Desbloquea al personaje Raidou. Completa el juego con las configuraciones predeterminadas de cada luchador.",
+                "code": null
+            }
+        ],
+		"Dragon Ball Z: Ultimate Battle 22": [
+			{
+				"name": "Añadir personajes",
+				"description": "En la pantalla de presentación pulsa:",
+				"code": "↑, △, ↓, X, ←, L1, →, R2"
+			}
+			],
+		"Ehrgeiz": [
+			{
+				"name": "Alternar la ropa",
+				"description": "Mantén pulsado Arriba mientras seleccionas a un guerrero en la modalidad Arcade."
+			},
+			{
+				"name": "Kouji Masuda",
+				"description": "Completa la modalidad Arcade usando un guerrero."
+			},
+			{
+				"name": "Clair Andrews",
+				"description": "Completa la modalidad Arcade usando una guerrera."
+			},
+			{
+				"name": "Yuffie Kisaragi",
+				"description": "Completa la modalidad Arcade como Cloud."
+			},
+			{
+				"name": "Vincent Valentine",
+				"description": "Completa la modalidad Arcade como Tifa."
+			},
+			{
+				"name": "Django",
+				"description": "Completa la modalidad Arcade usando los ocho personajes regulares que no pertenecen a Final Fantasy VII."
+			},
+			{
+				"name": "Zack",
+				"description": "Completa la modalidad Arcade usando todos los personajes de Final Fantasy VII."
+			}
+		],
+		"Tekken 2": [
+			{
+				"name": "Perspectiva en 1ª persona",
+				"description": "Primero debes conseguir los 23 luchadores del juego, incluyendo el canguro. Este aparece en el tercer combate si ganas el último round teniendo poca energía. Cuando consigas todos:",
+				"code": "Selecciona luchador con L1 + L2"
+			}
+		],
+		"Tekken 3": [
+			{
+				"name": "Conseguir a Gon",
+				"description": "En el modo Survival, debes ser lo bastante bueno para que el juego te pida las iniciales: escribe GON y podrás jugar con el 'hijo de Tanaka'.",
+				"code": "Escribe GON en iniciales"
+			},
+			{
+				"name": "Tekken Ball",
+				"description": "Este modo de juego aparecerá al terminar el juego con 10 personajes en el modo Arcade.",
+				"code": "Completa Arcade con 10 personajes"
+			}
+		],
+        "Yu-Gi-Oh! Forbidden Memories": [
+            {
+                "category": "Códigos de cartas",
+                "list": [
+                    {
+                        "name": "Arena Mística",
+                        "description": "Desbloquea la carta Arena Mística (500 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "32751480"
+                    },
+                    {
+                        "name": "Dragón de Aqua",
+                        "description": "Desbloquea la carta Dragón de Aqua (700 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "86164529"
+                    },
+                    {
+                        "name": "Dragón de Trueno de Cabezas Gemelas",
+                        "description": "Desbloquea la carta Dragón de Trueno de Cabezas Gemelas (1900 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "54752875"
+                    },
+                    {
+                        "name": "Dragón Kaiser",
+                        "description": "Desbloquea la carta Dragón Kaiser (900 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "94566432"
+                    },
+                    {
+                        "name": "Jirai Gumo",
+                        "description": "Desbloquea la carta Jirai Gumo (80 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "94773007"
+                    },
+                    {
+                        "name": "Seiyaryu",
+                        "description": "Desbloquea la carta Seiyaryu (1700 estrellas). Ve al menú de Password e introduce el código.",
+                        "code": "06740720"
+                    }
+                ]
+            },
+            {
+                "name": "Ventajas Estrella Guardiana I",
+                "description": "Sección de ventajas de estrellas guardianas.",
+                "code": "☉ → ☽ → ♀ → ☿ → ☉"
+            },
+            {
+                "name": "Ventajas Estrella Guardiana II",
+                "description": "Sección de ventajas de estrellas guardianas.",
+                "code": "♂ → ♃ → ♄ → ☉ → ♇ → ♆ → ♂"
+            }
+        ]
+    },
+    "PlayStation 2": {}
+}

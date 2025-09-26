@@ -1,0 +1,175 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+				Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+	background: #f1f1f1;
+	margin: 0;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	padding: 2rem;
+	gap: 2rem;
+}
+.logo {
+	font-family: var(--mono);
+	font-size: 2rem;
+	text-align: left;
+	padding: 1rem;
+	color: var(--nintendo-red);
+}
+
+/* SEARCH + TAGS */
+.search-container {
+	display: flex;
+	place-content: center;
+	width: 100%;
+	padding: 1rem;
+}
+.search-input {
+	width: 100%;
+	max-width: 400px;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+}
+.tags {
+	display: flex;
+  	gap: 0.5rem;
+ 	flex-wrap: wrap;
+  	margin-bottom: 1rem;
+	place-content: center;
+	padding: 0 1rem;
+}
+.tag {
+	background-color: #e0e0e0;
+	padding: 0.25rem 0.5rem;
+	transition: background-color 0.3s;
+	border-left: solid 0.5rem #7e7e7e;
+	cursor: pointer;
+}
+.tag-dreamcast {
+	border-left-color: var(--dc-color);
+}
+.tag-playstation {
+	border-left-color: var(--ps1-color);
+}
+.tag-playstation-2 {
+	border-left-color: var(--ps2-color);
+}
+.tag-snes {
+	border-left-color: var(--snes-color);
+}
+.tag-nintendo-64 {
+	border-left-color: var(--n64-color);
+}
+.tag-xbox {
+	border-left-color: var(--xbox-color);
+}
+.tag-atari {
+	border-left-color: var(--atari-color);
+}
+.tag-saturn {
+	border-left-color:  var(--saturn-color)
+}
+.tag-megadrive {
+	border-left-color: var(--megadrive-color);
+}
+.tag-gameboy {
+	border-left-color: var(--gameboy-color);
+}
+.tag-nes {
+	border-left-color: var(--nes-color);
+}
+
+
+.tag:hover {
+	background-color: #c0c0c0;
+}
+.tag.active {
+	background-color: #343434;
+	color: white;
+}
+/* FIN SEARCH + TAGS */
+
+/* BLOQUES DE JUEGOS */
+.no-results, .loading {
+	font-family: var(--mono);
+	text-align: center;
+	font-size: 1.5rem;
+	color: #777;
+	margin-top: 2rem;
+}
+.game-block {
+	border-top: solid 1px #ccc;
+}
+.game-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	align-items: baseline;
+	gap: .75rem;
+}
+.game-title {
+	font-family: var(--mono);
+	font-size: 1.5rem;
+	margin: .5rem 0;
+}
+.badge {
+	background-color: #343434;
+	color: white;
+	padding: .25rem .5rem;
+	font-size: .75rem;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.list-cards {
+	line-height: 1.5rem;
+}
+.card-title {
+	cursor: pointer;
+	padding: .25rem;
+	background-color: #f1f1f1;
+}
+.card-title:hover {
+	color: #e294ba;
+	text-decoration: underline;
+}
+.card-title.active {
+	background-color: #3a3a3a;
+	color: #fff;
+	transition: background 0.5s ease, color 0.2s ease;
+}
+.card-title::before {
+	font-family: var(--mono);
+	font-size: 1.25rem;
+	content: "▷";
+	display: inline-block;
+	transition: transform 0.3s;
+	width: 1.5rem;
+	text-align: center;
+}
+.card-title.active::before {
+  	transform: rotate(90deg);
+}
+.card-content {
+	padding: 0.5rem 1rem;
+}
+.card-description {
+	margin: 0.5rem 0;
+	color: #555;
+}
+.card-code {
+	background-color: #dfb9ca;
+	padding: 0.5rem;
+	font-family: var(--mono);
+	word-break: break-all;
+}
+/* FIN BLOQUES DE JUEGOS */
+
+
