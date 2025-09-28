@@ -40,9 +40,9 @@ body {
 }
 .tags {
 	display: flex;
-  	gap: 0.5rem;
- 	flex-wrap: wrap;
-  	margin-bottom: 1rem;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
 	place-content: center;
 	padding: 0 1rem;
 }
@@ -75,7 +75,7 @@ body {
 	border-left-color: var(--atari-color);
 }
 .tag-saturn {
-	border-left-color:  var(--saturn-color)
+	border-left-color: var(--saturn-color);
 }
 .tag-megadrive {
 	border-left-color: var(--megadrive-color);
@@ -86,8 +86,6 @@ body {
 .tag-nes {
 	border-left-color: var(--nes-color);
 }
-
-
 .tag:hover {
 	background-color: #c0c0c0;
 }
@@ -143,7 +141,7 @@ body {
 .card-title.active {
 	background-color: #3a3a3a;
 	color: #fff;
-	transition: background 0.5s ease, color 0.2s ease;
+	transition: background-color 0.5s ease, color 0.2s ease;
 }
 .card-title::before {
 	font-family: var(--mono);
@@ -171,5 +169,3 @@ body {
 	word-break: break-all;
 }
 /* FIN BLOQUES DE JUEGOS */
-
-
