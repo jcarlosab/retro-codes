@@ -1,10 +1,61 @@
 {
-    "MegaDrive": {},
-    "Saturn": {},
     "Dreamcast": {},
+    "MegaDrive": {
+        "Mega Bomberman": [
+            {
+                "name": "Códigos niveles",
+                "description": "Mundo 1: 7420\nMundo 2: 3351\nMundo 3: 3352\nMundo 4: 5653\nMundo 5: 7954\nFinal: 0515",
+                "code": null
+            }
+        ],
+        "Mortal Kombat 3": [
+            {
+                "name": "Menú Cheat",
+                "description": "En la pantalla de inicio, pulsar:",
+                "code": "A, C, \nARRIBA, B, ARRIBA, B, A, ABAJO."
+            },
+            {
+                "name": "Menú Secrets",
+                "description": "En la pantalla de inicio, pulsar:",
+                "code": "B, A, ABAJO, IZQ., A, ABAJO, C, DCHA.,\nARRIBA, ABAJO."
+            },
+            {
+                "name": "Menú Killer Kodes",
+                "description": "En la pantalla de inicio, pulsar:",
+                "code": "C, DCHA., A, IZQ., A, ARRIBA, C, DCHA., A, IZQ., A,\nARRIBA."
+            }
+        ]
+    },
     "NES": {},
-    "SNES": {},
-    "Nintendo 64": {},
+    "Nintendo 64": {
+        "Conker's Bad Fur Day": [
+            {
+                "name": "50 continues",
+                "description": "Intrduce el siguiente código:",
+                "code": "DUTCHOVENS"
+            },
+            {
+                "name": "Dinero extra",
+                "description": "Intruce el siguiente código:",
+                "code": "chocolatestarfish"
+            },
+            {
+                "name": "Modo fácil",
+                "description": "Intruce el siguiente código:",
+                "code": "VERYEASY"
+            },
+            {
+                "name": "Jugar como \"neo\"",
+                "description": "Intruce el siguiente código:",
+                "code": "eastereggsrus"
+            },
+            {
+                "name": "Todos los capítulos y escenas",
+                "description": "Intruce el siguiente código:",
+                "code": "WELDERSBENCH"
+            }
+        ]
+    },
     "PlayStation": {
         "Battle Arena Toshinden": [
             {
@@ -27,68 +78,68 @@
                 "code": "R1 + X ○ L2"
             }
         ],
-		"Bloody Roar": [
-			{
-				"name": "Modo Cabezón",
-				"description": "Mantén pulsado L2 mientras seleccionas el personaje para activar este modo.",
-				"code": "L2 + Selección de personaje"
-			},
-			{
-				"name": "Modo Pequeñín",
-				"description": "Mantén pulsado R2 mientras seleccionas el personaje para activar este modo.",
-				"code": "R2 + Selección de personaje"
-			},
-			{
-				"name": "Repeticiones de cámara infinitas",
-				"description": "Al eliminar a tu contrincante, mantén pulsado △ durante el final de los combates para activar repeticiones infinitas."
-			},
-			{
-				"category": "Menú de opciones especiales",
-				"list": [
-					{
-						"name": "Opción Extra",
-						"description": "Se desbloquea al terminar el juego sin continuar."
-					},
-					{
-						"name": "Modo brazos grandes",
-						"description": "Se desbloquea al terminar el juego con Yugo."
-					},
-					{
-						"name": "Modo de transformaciones",
-						"description": "Se desbloquea al terminar el juego con Alice."
-					},
-					{
-						"name": "Modo sin defensa",
-						"description": "Se desbloquea al terminar el juego con Long."
-					},
-					{
-						"name": "Modo sin música",
-						"description": "Se desbloquea al terminar el juego con Mitsuko."
-					},
-					{
-						"name": "Modo sin sonido",
-						"description": "Se desbloquea al terminar el juego con Fox."
-					},
-					{
-						"name": "Recuperación de vida",
-						"description": "Se desbloquea al terminar el juego con Bakuryu."
-					},
-					{
-						"name": "Modo difícil",
-						"description": "Se desbloquea al terminar 10 rounds en modo Survival.",
-						"code": "Superar 10 rounds en Survival"
-					},
-					{
-						"name": "Modo especial de imágenes",
-						"description": "Se desbloquea al eliminar todos los personajes del cuadro de dificultad en el menú de opciones."
-					},
-					{
-						"name": "Alice diferente",
-						"description": "Se desbloquea al terminar el juego con Alice en nivel seis de dificultad sin continuar."
-					}
-				]
-			}
-		],
+        "Bloody Roar": [
+            {
+                "name": "Modo Cabezón",
+                "description": "Mantén pulsado L2 mientras seleccionas el personaje para activar este modo.",
+                "code": "L2 + Selección de personaje"
+            },
+            {
+                "name": "Modo Pequeñín",
+                "description": "Mantén pulsado R2 mientras seleccionas el personaje para activar este modo.",
+                "code": "R2 + Selección de personaje"
+            },
+            {
+                "name": "Repeticiones de cámara infinitas",
+                "description": "Al eliminar a tu contrincante, mantén pulsado △ durante el final de los combates para activar repeticiones infinitas."
+            },
+            {
+                "category": "Menú de opciones especiales",
+                "list": [
+                    {
+                        "name": "Alice diferente",
+                        "description": "Se desbloquea al terminar el juego con Alice en nivel seis de dificultad sin continuar."
+                    },
+                    {
+                        "name": "Modo brazos grandes",
+                        "description": "Se desbloquea al terminar el juego con Yugo."
+                    },
+                    {
+                        "name": "Modo de transformaciones",
+                        "description": "Se desbloquea al terminar el juego con Alice."
+                    },
+                    {
+                        "name": "Modo difícil",
+                        "description": "Se desbloquea al terminar 10 rounds en modo Survival.",
+                        "code": "Superar 10 rounds en Survival"
+                    },
+                    {
+                        "name": "Modo especial de imágenes",
+                        "description": "Se desbloquea al eliminar todos los personajes del cuadro de dificultad en el menú de opciones."
+                    },
+                    {
+                        "name": "Modo sin defensa",
+                        "description": "Se desbloquea al terminar el juego con Long."
+                    },
+                    {
+                        "name": "Modo sin música",
+                        "description": "Se desbloquea al terminar el juego con Mitsuko."
+                    },
+                    {
+                        "name": "Modo sin sonido",
+                        "description": "Se desbloquea al terminar el juego con Fox."
+                    },
+                    {
+                        "name": "Opción Extra",
+                        "description": "Se desbloquea al terminar el juego sin continuar."
+                    },
+                    {
+                        "name": "Recuperación de vida",
+                        "description": "Se desbloquea al terminar el juego con Bakuryu."
+                    }
+                ]
+            }
+        ],
         "Croc 2": [
             {
                 "name": "Cristales infinitos",
@@ -99,71 +150,120 @@
         "Dead Or Alive": [
             {
                 "name": "Ayane",
-                "description": "Desbloquea al personaje Ayane. Consigue todas las vestimentas del juego: 14 para cada personaje femenino, 5 para cada personaje masculino y 3 para Raidou.",
-                "code": null
+                "description": "Desbloquea al personaje Ayane. Consigue todas las vestimentas del juego: 14 para cada personaje femenino, 5 para cada personaje masculino y 3 para Raidou."
             },
             {
                 "name": "Raidou",
-                "description": "Desbloquea al personaje Raidou. Completa el juego con las configuraciones predeterminadas de cada luchador.",
-                "code": null
+                "description": "Desbloquea al personaje Raidou. Completa el juego con las configuraciones predeterminadas de cada luchador."
             }
         ],
-		"Dragon Ball Z: Ultimate Battle 22": [
-			{
-				"name": "Añadir personajes",
-				"description": "En la pantalla de presentación pulsa:",
-				"code": "↑, △, ↓, X, ←, L1, →, R2"
-			}
-			],
-		"Ehrgeiz": [
-			{
-				"name": "Alternar la ropa",
-				"description": "Mantén pulsado Arriba mientras seleccionas a un guerrero en la modalidad Arcade."
-			},
-			{
-				"name": "Kouji Masuda",
-				"description": "Completa la modalidad Arcade usando un guerrero."
-			},
-			{
-				"name": "Clair Andrews",
-				"description": "Completa la modalidad Arcade usando una guerrera."
-			},
-			{
-				"name": "Yuffie Kisaragi",
-				"description": "Completa la modalidad Arcade como Cloud."
-			},
-			{
-				"name": "Vincent Valentine",
-				"description": "Completa la modalidad Arcade como Tifa."
-			},
-			{
-				"name": "Django",
-				"description": "Completa la modalidad Arcade usando los ocho personajes regulares que no pertenecen a Final Fantasy VII."
-			},
-			{
-				"name": "Zack",
-				"description": "Completa la modalidad Arcade usando todos los personajes de Final Fantasy VII."
-			}
-		],
-		"Tekken 2": [
-			{
-				"name": "Perspectiva en 1ª persona",
-				"description": "Primero debes conseguir los 23 luchadores del juego, incluyendo el canguro. Este aparece en el tercer combate si ganas el último round teniendo poca energía. Cuando consigas todos:",
-				"code": "Selecciona luchador con L1 + L2"
-			}
-		],
-		"Tekken 3": [
-			{
-				"name": "Conseguir a Gon",
-				"description": "En el modo Survival, debes ser lo bastante bueno para que el juego te pida las iniciales: escribe GON y podrás jugar con el 'hijo de Tanaka'.",
-				"code": "Escribe GON en iniciales"
-			},
-			{
-				"name": "Tekken Ball",
-				"description": "Este modo de juego aparecerá al terminar el juego con 10 personajes en el modo Arcade.",
-				"code": "Completa Arcade con 10 personajes"
-			}
-		],
+        "Dragon Ball Final Bout": [
+            {
+                "name": "Añadir luchadores",
+                "description": "Para conseguir nuevos personajes presiona, en la pantalla de título:",
+                "code": "DERECHA, IZQUIERDA, ABAJO, ARRIBA, DERECHA, IZQUIERDA, ABAJO, ARRIBA."
+            },
+            {
+                "name": "Goku nivel 4",
+                "description": "Tras hacer el truco de los seis luchadores:",
+                "code": "5 veces TRIANGULO y 9 veces X, version americana pulsa TRIANGULO 5 veces y CUADRADO 9 veces"
+            }
+        ],
+        "Dragon Ball Z: Ultimate Battle 22": [
+            {
+                "name": "Añadir personajes",
+                "description": "En la pantalla de presentación pulsa:",
+                "code": "↑, △, ↓, X, ←, L1, →, R2"
+            }
+        ],
+        "Ehrgeiz": [
+            {
+                "name": "Alternar la ropa",
+                "description": "Mantén pulsado Arriba mientras seleccionas a un guerrero en la modalidad Arcade."
+            },
+            {
+                "category": "Personajes secretos",
+                "list": [
+                    {
+                        "name": "Clair Andrews",
+                        "description": "Completa la modalidad Arcade usando una guerrera."
+                    },
+                    {
+                        "name": "Django",
+                        "description": "Completa la modalidad Arcade usando los ocho personajes regulares que no pertenecen a Final Fantasy VII."
+                    },
+                    {
+                        "name": "Kouji Masuda",
+                        "description": "Completa la modalidad Arcade usando un guerrero."
+                    },
+                    {
+                        "name": "Vincent Valentine",
+                        "description": "Completa la modalidad Arcade como Tifa."
+                    },
+                    {
+                        "name": "Yuffie Kisaragi",
+                        "description": "Completa la modalidad Arcade como Cloud."
+                    },
+                    {
+                        "name": "Zack",
+                        "description": "Completa la modalidad Arcade usando todos los personajes de Final Fantasy VII."
+                    }
+                ]
+            }
+        ],
+        "Medievil 2": [
+            {
+                "name": "Menú de trucos",
+                "description": "Este menú te permitirá acceder a nuevas opciones, como volverte invencible, incrementar tu cabeza... etc.\nLa nueva opción saldrá en el menú de pausa.",
+                "code": "Manten pulsado L2 y pulsa los siguientes botones en este orden: Triángulo, Círculo, Triángulo, Círculo, Círculo, Triángulo, Izquierda, Círculo, Arriba, Abajo, Derecha, Círculo, Izquierda, Izquierda, Triángulo, Derecha, Círculo, Izquierda, Izquierda, Triángulo, Círculo, Abajo, Círculo, Círculo, Derecha."
+            }
+        ],
+        "Tekken 2": [
+            {
+                "name": "Perspectiva en 1ª persona",
+                "description": "Primero debes conseguir los 23 luchadores del juego, incluyendo el canguro. Este aparece en el tercer combate si ganas el último round teniendo poca energía. Cuando consigas todos:",
+                "code": "Selecciona luchador con L1 + L2"
+            }
+        ],
+        "Tekken 3": [
+            {
+                "name": "Conseguir a Gon",
+                "description": "En el modo Survival, debes ser lo bastante bueno para que el juego te pida las iniciales: escribe GON y podrás jugar con el 'hijo de Tanaka'.",
+                "code": "Escribe GON en iniciales"
+            },
+            {
+                "name": "Tekken Ball",
+                "description": "Este modo de juego aparecerá al terminar el juego con 10 personajes en el modo Arcade.",
+                "code": "Completa Arcade con 10 personajes"
+            }
+        ],
+        "Twisted Metal": [
+            {
+                "name": "Warehouse",
+                "description": "Nivel 2:",
+                "code": "○, △, □, ○, ○"
+            },
+            {
+                "name": "Freeway",
+                "description": "Nivel 3:",
+                "code": "×, □, □, ○, △"
+            },
+            {
+                "name": "River Park",
+                "description": "Nivel 4:",
+                "code": "×, △, □, ○, □"
+            },
+            {
+                "name": "Assault on Cyburbia",
+                "description": "Nivel 5:",
+                "code": "×, □, △, △, △"
+            },
+            {
+                "name": "Rooftop Combat",
+                "description": "Nivel 6:",
+                "code": "□, △, ×, ○, ×"
+            }
+        ],
         "Yu-Gi-Oh! Forbidden Memories": [
             {
                 "category": "Códigos de cartas",
@@ -212,5 +312,27 @@
             }
         ]
     },
-    "PlayStation 2": {}
+    "PlayStation 2": {},
+    "Saturn": {
+        "Panzer Dragon": [
+            {
+                "name": "Sólo tu dragón",
+                "description": "Para hacer desaparecer el personaje a lomos del dragón, debemos introducir en la pantalla de título:",
+                "code": "ARRIBA, X,\nDCHA, Y, ABAJO, Z, IZQ., Y, ARRIBA,  X. \nDespues IZQ., IZQ., DCHA., DCHA.,\nARRIBA, ABAJO, ARRIBA, ABAJO, L, R y\nSTART."
+            }
+        ],
+        "Shinobi": [
+            {
+                "name": "Desbloquear todas las escenas",
+                "description": "Para desbloquear todas las escenas de vídeo, pulsa en la intro:",
+                "code": "C, X, B, Y, A, Z y START"
+            },
+            {
+                "name": "999 Shurikens",
+                "description": "En la pantalla de opciones y con la opción \"Shurikens\" iluminada, pulsa:",
+                "code": "Manten L y R, pulsa C, A y B"
+            }
+        ]
+    },
+    "SNES": {}
 }
